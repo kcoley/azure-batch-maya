@@ -98,7 +98,7 @@ class ArnoldRenderAssets(AzureBatchRenderAssets):
     file_nodes = {
         'aiStandIn': ['dso'],
         'aiPhotometricLight': ['aiFilename'],
-        'aiVolume': ['dso', 'filename'],
+        'aiVolume': ['filename'],
         'aiImage': ['filename']
     }
 
